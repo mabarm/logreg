@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1062459291686",
+    "firebase_url": "https://logreg-8fb1c.firebaseio.com",
+    "project_id": "logreg-8fb1c",
+    "storage_bucket": "logreg-8fb1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062459291686:android:0f8d1c0268e35286",
+        "android_client_info": {
+          "package_name": "com.example.user.logreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062459291686-9s42ig3mnhgmbt3p5vik2m44mfesjpb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpI0H9hFKY-dApmJr_2LdbJN1ZkHCwNQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

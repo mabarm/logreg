@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.logreg.ShowDetails">
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/det1"
+    android:hint="Employee No"
+    android:layout_alignParentTop="true" />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/det2"
+    android:hint="Employee Name"
+    android:layout_below="@+id/det1"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/det3"
+        android:hint="Designation"
+    android:layout_below="@+id/det2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det4"
+        android:hint="Department"
+        android:layout_below="@+id/det3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det5"
+        android:hint="Grade"
+        android:layout_below="@+id/det4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det6"
+        android:hint="Requisition No"
+        android:layout_below="@+id/det5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det7"
+        android:hint="Requisition Date"
+        android:layout_below="@+id/det6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det8"
+        android:hint="No of Days"
+        android:layout_below="@+id/det7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det9"
+        android:hint="Booking Fees"
+        android:layout_below="@+id/det8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det10"
+        android:hint="Quarter No"
+        android:layout_below="@+id/det9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det11"
+        android:hint="Mobile No"
+        android:layout_below="@+id/det10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/det12"
+        android:hint="Pincode"
+        android:layout_below="@+id/det11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+</RelativeLayout>
